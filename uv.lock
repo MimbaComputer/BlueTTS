@@ -172,7 +172,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "bluecodec", marker = "extra == 'export'", git = "https://github.com/maxmelichov/blue-codec.git" },
+    { name = "bluecodec", marker = "extra == 'export'", git = "https://github.com/MimbaComputer/blue-codec.git" },
     { name = "espeakng-loader", specifier = ">=0.2.4" },
     { name = "huggingface-hub", specifier = ">=0.26.0" },
     { name = "librosa" },
@@ -201,7 +201,7 @@ dev = [{ name = "ruff" }]
 [[package]]
 name = "bluecodec"
 version = "0.1.0"
-source = { git = "https://github.com/maxmelichov/blue-codec.git#5bccc0abb28ef7782473b7ccabd80970e2728149" }
+source = { git = "https://github.com/MimbaComputer/blue-codec.git#5bccc0abb28ef7782473b7ccabd80970e2728149" }
 dependencies = [
     { name = "huggingface-hub" },
     { name = "numpy" },

@@ -59,7 +59,7 @@ conflicts = [
 ]
 
 [tool.uv.sources]
-bluecodec = { git = "https://github.com/maxmelichov/blue-codec.git" }
+bluecodec = { git = "https://github.com/MimbaComputer/blue-codec.git" }
 
 [dependency-groups]
 dev = [

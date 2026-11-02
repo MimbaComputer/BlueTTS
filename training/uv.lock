@@ -92,7 +92,7 @@ cu132 = [
 
 [package.metadata]
 requires-dist = [
-    { name = "bluecodec", git = "https://github.com/maxmelichov/blue-codec.git" },
+    { name = "bluecodec", git = "https://github.com/MimbaComputer/blue-codec.git" },
     { name = "huggingface-hub", specifier = ">=1.10.0" },
     { name = "numpy" },
     { name = "pandas" },
@@ -112,7 +112,7 @@ provides-extras = ["cu128", "cu132"]
 [[package]]
 name = "bluecodec"
 version = "0.1.0"
-source = { git = "https://github.com/maxmelichov/blue-codec.git#da8d7609a690dfe1c554fa90b20df8c5b6d5f6bd" }
+source = { git = "https://github.com/MimbaComputer/blue-codec.git#da8d7609a690dfe1c554fa90b20df8c5b6d5f6bd" }
 dependencies = [
     { name = "huggingface-hub" },
     { name = "numpy" },

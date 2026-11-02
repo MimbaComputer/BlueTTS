@@ -45,7 +45,7 @@ triton = [
     { index = "pytorch-cu128", extra = "cu128" },
     { index = "pytorch-nightly-cu132", extra = "cu132" },
 ]
-bluecodec = { git = "https://github.com/maxmelichov/blue-codec.git" }
+bluecodec = { git = "https://github.com/MimbaComputer/blue-codec.git" }
 
 [[tool.uv.index]]
 name = "pytorch-cu128"
